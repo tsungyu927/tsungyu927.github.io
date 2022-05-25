@@ -5,6 +5,8 @@ import { IoTriangleSharp } from 'react-icons/io5'
 import ScrollAnimation from 'react-animate-on-scroll'
 // components
 import { BigText, ExpCard } from '../../components'
+// data
+import EXP from '../../data/experience.json'
 
 function Experience() {
   return (
@@ -31,7 +33,7 @@ function Experience() {
         >
           <IoTriangleSharp className="triangle" />
           <div className="card-container">
-            <ExpCard />
+            {EXP.map((val) => <ExpCard data={val} />)}
           </div>
         </ScrollAnimation>
       </div>

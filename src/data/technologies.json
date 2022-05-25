@@ -1,0 +1,20 @@
+{
+    "lang": [
+        "HTML5", 
+        "CSS3", 
+        "Javascript", 
+        "jQuery",
+        "React", 
+        "Redux", 
+        "Node.js"
+    ],
+    "others": [
+        "Git", 
+        "GCP", 
+        "Firebase", 
+        "Heroku", 
+        "LineAPI", 
+        "Npm/Yarn", 
+        "RWD"
+    ]
+}

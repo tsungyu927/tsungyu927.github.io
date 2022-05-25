@@ -7,12 +7,10 @@ import { BiCodeAlt } from 'react-icons/bi'
 import { VscTools } from 'react-icons/vsc'
 // components
 import { BigText, SkillCard } from '../../components'
+// data
+import TECH from '../../data/technologies.json'
 
 function Skills() {
-  // technologies list
-  const lang = ['HTML5', 'CSS3', 'Javascript', 'jQuery', 'React', 'Redux', 'Node.js']
-  const others = ['Git', 'GCP', 'Firebase', 'Heroku', 'LineAPI', 'Npm/Yarn', 'RWD']
-
   return (
     <div className="skills">
       <BigText fileN="Skills" isBright={false} />
@@ -57,7 +55,7 @@ function Skills() {
             animateOnce
           >
             <div className="list-content">
-              {lang.map((val) => (
+              {TECH.lang.map((val) => (
                 <SkillCard type={val} />
               ))}
             </div>
@@ -70,7 +68,7 @@ function Skills() {
             animateOnce
           >
             <div className="list-content">
-              {others.map((val) => (
+              {TECH.others.map((val) => (
                 <SkillCard type={val} />
               ))}
             </div>

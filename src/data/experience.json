@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Software Engineer Intern",
+        "company": "MyBigDay",
+        "time": "July 2020 - June 2021",
+        "location": "Taipei, Taiwan",
+        "detail": [
+            "Developed responsive web pages using React, Redux, CSS",
+            "Implemented Line Bots using Node.js and Bottender.js",
+            "Built server-side rendered web app and deployed to Google Cloud Platform (Firebase)",
+            "Collaborated with designers to create new Line integrations",
+            "Implemented BLE (Bluetooth Low Energy) communication system on Raspberry Pi and Android using Node.js and React Native"
+        ]
+    }
+]
