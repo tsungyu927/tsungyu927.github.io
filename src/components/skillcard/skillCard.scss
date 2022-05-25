@@ -1,0 +1,29 @@
+@use '../../styles/utilities/color';
+
+.skillcard {
+    margin: 0 1.1em;
+    padding: 0.5em 0;
+    width: 8vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & > .icon {
+        margin-bottom: 0.5em;
+        width: max-content;
+        height: fit-content;
+
+        & > .icon-content {
+            width: auto;
+            height: 5em;
+            color: color.$primary-color-bright;
+        }
+    }
+
+    & > .name {
+        font-size: 1.5em;
+        color: color.$primary-color-bright;
+    }
+}

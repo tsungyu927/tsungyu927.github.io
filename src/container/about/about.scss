@@ -1,0 +1,60 @@
+@use '../../styles/utilities/color';
+
+.about {
+    position: relative;
+    padding: 0 5%;
+    width: 90%;
+    height: 100vh;
+    background-color: color.$primary-color-dark;
+    display: flex;
+
+    & > .col-1 {
+        width: 65%;
+        height: 100%;
+
+        & > .row-1 {
+            margin-bottom: 5%;
+            width: 100%;
+            height: 42%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+
+            & > .title {
+                color: color.$primary-color-bright;
+                font-size: 3em;
+                font-weight: bold;
+            }
+        }
+
+        & > .row-2 {
+            margin-bottom: 5%;
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            & > .content {
+                line-height: 1.8em;
+                color: color.$primary-color-bright;
+                font-size: 1.2em;
+            }
+        }
+
+        & > .row-3 {
+            width: 100%;
+            height: 13%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    }
+
+    & > .col-2 {
+        width: 35%;
+        height: 10%;
+        border-left: 3px dashed color.$primary-color-bright;
+    }
+
+}

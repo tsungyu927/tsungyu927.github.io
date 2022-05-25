@@ -1,0 +1,29 @@
+@use '../../styles/utilities/color';
+
+.specbtn {
+    position: relative;
+    width: max-content;
+    height: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+
+    & > .large {
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    & > .small {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    & > .end-line {
+        transform-origin: bottom right;
+        transform: rotate(-45deg);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 4.5em;
+        width: 3px;
+    }
+}

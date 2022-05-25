@@ -1,0 +1,78 @@
+@use '../../styles//utilities/color';
+
+.expcard {
+    position: relative;
+    padding-bottom: 8vh;
+    width: 100%;
+    height: fit-content;
+
+    & > .dot {
+        position: absolute;
+        top: 0.5em;
+        left: calc(-0.5em - 1.5px);
+        width: 1em;
+        height: 1em;
+        color: color.$stroke-color-dark;
+    }
+
+    & > .content {
+        padding-left: 5%;
+        width: 95%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        & > .title {
+            line-height: 1.5em;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: color.$primary-color-dark;
+
+            & > span {
+                color: color.$stroke-color-dark;
+            }
+        }
+
+        & > .info {
+            margin-bottom: 3vh;
+            font-size: 1em;
+            color: color.$primary-color-dark;
+        }
+
+        & > .detail {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            & > .item {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                line-height: 2.2em;
+
+                & > .icon {
+
+                    & > .triangle {
+                        margin-right: 0.8em;
+                        width: 0.8em;
+                        height: 0.8em;
+                        color: color.$stroke-color-dark;
+                        transform: rotate(90deg);
+                    }
+                }
+
+                & > .text {
+                    font-size: 1.2em;
+                    color: color.$primary-color-dark;
+                }
+                
+            }
+        }
+
+    }
+}

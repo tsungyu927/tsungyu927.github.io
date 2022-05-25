@@ -1,0 +1,6 @@
+export { default as BigText } from './bigtext/BigText'
+export { default as Navbar } from './navbar/Navbar'
+export { default as Button } from './button/Button'
+export { default as ExpCard } from './expCard/ExpCard'
+export { default as SkillCard } from './skillcard/SkillCard'
+export { default as WorkCard } from './workCard/WorkCard'

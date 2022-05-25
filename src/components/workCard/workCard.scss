@@ -1,0 +1,91 @@
+@use '../../styles/utilities/color';
+
+.workcard:not(:last-child) {
+    // 除了最後一個card以外都加上分隔線
+    border-bottom: 3px dashed color.$primary-color-dark;
+}
+
+.workcard:hover > .col-1 > .pic{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.workcard {
+    padding: 3em 0;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    & > .col-1 {
+        width: 35%;
+        height: max-content;
+
+        & > .pic {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+        }
+
+        & > .pic:hover{
+            
+        }
+    }
+
+    & > .col-2 {
+        width: 70%;
+        height: auto;
+        aspect-ratio: 32/9;
+
+        & > .content {
+            margin-left: 10%;
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            color: color.$font-color-dark;
+
+            & > .title {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+
+            & > .intro {
+                font-size: 1.25em;
+            }
+
+            & > .tags {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                & > ul {
+                    padding-left: 1.5em;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 100%;
+                    
+                    > li {
+                        margin-right: 2em;
+                        font-size: 1em;
+                    }
+                } 
+    
+            }
+
+            & > .btn {
+                width: 100%;
+                height: max-content;
+            }
+        }
+    }
+
+}
