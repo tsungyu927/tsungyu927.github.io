@@ -1,10 +1,12 @@
 @use '../../styles/utilities/color';
 
 .navbar {
+  overflow-x: hidden;
   position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
+  right: 0;
   padding: 0 5%;
   width: 90%;
   height: 14%;

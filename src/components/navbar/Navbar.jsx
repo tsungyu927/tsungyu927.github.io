@@ -40,7 +40,7 @@ function Navbar() {
   }, [handleNavigation])
 
   return (
-    <header className={`navbar ${scrollUp}`}>
+    <div className={`navbar ${scrollUp}`}>
       <div className="row">
         <div className="col-1">
           {/* logo */}
@@ -95,7 +95,7 @@ function Navbar() {
         </div>
 
       </div>
-    </header>
+    </div>
   )
 }
 

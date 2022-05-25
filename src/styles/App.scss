@@ -3,7 +3,8 @@
   height: 100vh;
 
   .element {
-    width: 100vw;
+    overflow-x: hidden;
+    width: 100%;
     height: fit-content;
   }
 }
