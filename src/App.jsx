@@ -3,7 +3,7 @@ import { Element } from 'react-scroll'
 // import { Routes, Route } from 'react-router-dom'
 import './styles/App.scss'
 // import container
-import { Navbar } from './components'
+import { Navbar, Footer } from './components'
 import {
   Home, About, Experience, Skills, Work,
 } from './container'
@@ -29,6 +29,7 @@ function App() {
       <Element name="work" className="element">
         <Work />
       </Element>
+      <Footer />
       {/* <Routes>
         <Route path="/" element={<Home />} />
       </Routes> */}

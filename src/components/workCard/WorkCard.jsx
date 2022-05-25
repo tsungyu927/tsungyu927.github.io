@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 // animate
 import ScrollAnimation from 'react-animate-on-scroll'
 // components
-import { Button } from '..'
+import Button from '../button/Button'
 
 /* eslint-disable */
 function WorkCard(props) {

@@ -1,13 +1,17 @@
 import React from 'react'
 import './about.scss'
+// scroll
+import Scroll from 'react-scroll'
 // animate
 import ScrollAnimation from 'react-animate-on-scroll'
 // components
 import { BigText, Button } from '../../components'
 
 function About() {
+  const scroll = Scroll.animateScroll
   const handleClick = () => {
-    console.log('clicked!!!')
+    // scroll to bottom (contact)
+    scroll.scrollToBottom()
   }
 
   return (

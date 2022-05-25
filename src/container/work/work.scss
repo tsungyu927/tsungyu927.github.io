@@ -26,11 +26,18 @@
         }
     }
 
+    & > .row-2::-webkit-scrollbar{
+        display: none;
+    }
+
     & > .row-2 {
         overflow: hidden scroll;
         margin-bottom: 5vh;
         width: 100%;
         height: max-content;
+
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
 
         & > .card-container {
             width: 100%;
@@ -40,6 +47,7 @@
             justify-content: flex-start;
             align-items: center;
         }
+
     }
 
 }
