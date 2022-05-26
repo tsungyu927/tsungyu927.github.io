@@ -7,8 +7,8 @@ import { Link } from 'react-scroll'
 import { AiOutlineMedium } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { VscMail, VscPreview } from 'react-icons/vsc'
-// OuterLink
-import * as LinkFunc from '../linkFunc/LinkFunc'
+// HintBtn
+import HintBtn from '../hintBtn/HintBtn'
 // img
 import Logo from '../../assets/Jamie.png'
 import { ReactComponent as EnIcon } from '../../assets/icons/en.svg'
@@ -46,9 +46,9 @@ function Navbar() {
       <div className="row">
         <div className="col-1">
           {/* logo */}
-          <button type="button" className="name">
+          <Link activeClass="active" to="home" spy smooth duration={600} className="name">
             <img src={Logo} className="logo" alt="logo" />
-          </button>
+          </Link>
         </div>
 
         <div className="col-2">
@@ -75,24 +75,24 @@ function Navbar() {
         <div className="col-3">
           {/* link */}
           <div className="link-list">
-            <button type="button" className="link" onClick={() => LinkFunc.openMail()}>
+            <HintBtn loc="nav" type="E-Mail">
               <VscMail />
-            </button>
-            <button type="button" className="link" onClick={() => LinkFunc.openGithub()}>
+            </HintBtn>
+            <HintBtn loc="nav" type="Github">
               <FiGithub />
-            </button>
-            <button type="button" className="link" onClick={() => LinkFunc.openMedium()}>
+            </HintBtn>
+            <HintBtn loc="nav" type="Medium">
               <AiOutlineMedium />
-            </button>
-            <button type="button" className="link" onClick={() => LinkFunc.openResume()}>
+            </HintBtn>
+            <HintBtn loc="nav" type="Resume">
               <VscPreview />
-            </button>
+            </HintBtn>
           </div>
           {/* Eng -> Ch */}
           <div className="trans-list">
-            <button type="button" className="translateBtn">
+            <HintBtn loc="nav" type="In Development">
               <EnIcon />
-            </button>
+            </HintBtn>
           </div>
         </div>
 

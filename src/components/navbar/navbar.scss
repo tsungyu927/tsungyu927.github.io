@@ -33,6 +33,7 @@
       .name{
         width: 100%;
         height: auto;
+        cursor: pointer;
 
         .logo{
           width: 100%;
@@ -80,30 +81,17 @@
         justify-content: flex-start;
         align-items: center;
 
-        .link {
-          display: flex;
-          justify-content: center;
-          align-items: flex-end;
-          margin-right: 10%;
-          font-size: 2em;
-          color: color.$primary-color-dark
-        }
       }
 
       .trans-list{
+        margin-left: 10%;
         margin-bottom: 1em;
-        width: 30%;
+        width: 20%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
 
-        .translateBtn{
-          display: flex;
-          justify-content: center;
-          align-items: flex-end;
-          font-size: 2em;
-          color: color.$primary-color-dark
-        }
+        // style in hintBtn
       }
 
     }

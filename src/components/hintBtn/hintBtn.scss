@@ -1,0 +1,82 @@
+@use '../../styles//utilities/color';
+
+.outerlink {
+    position: relative;
+    // & > .hint {
+    //     visibility: hidden;
+    // }
+    &:before, &:after {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        z-index: 11;
+        transform: translate(-80%, 0);
+        
+        transition: all 0.18s ease-out 0.18s;
+        opacity: 0;
+    }
+
+    // body of the balloon
+    &:after {
+        width: max-content;
+        font-size: 0.5em;
+        content: attr(hint-data);
+        border-radius: 4px;
+        margin-bottom: 12px;
+        padding: 5px 10px;
+    }
+
+    &:before {
+        content: "";
+        margin-bottom: 5px;
+        border-left: solid 8px transparent;
+        border-right: solid 2px transparent;
+    }
+
+    &:hover:before,
+    &:hover:after {
+        opacity: 1;
+    }
+}
+
+// nav hint
+.nav-icon::before{
+    border-top: solid 8px color.$stroke-color-dark;
+}
+.nav-icon:after {
+    background-color: color.$stroke-color-dark;
+    color: color.$primary-color-bright;
+}
+
+// footer hint
+.footer-icon::before{
+    border-top: solid 8px color.$stroke-color-dark;
+}
+.footer-icon:after{
+    background-color: color.$stroke-color-dark;
+    color: color.$font-color-dark;
+}
+
+// icon decoration
+.nav-icon {
+    // style for navbar
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 10%;
+    font-size: 2em;
+    color: color.$primary-color-dark
+}
+.footer-icon {
+    // style for footer
+    margin: 0 1em;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid color.$primary-color-bright;
+    border-radius: 50%;
+    color: color.$primary-color-bright;
+}

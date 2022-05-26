@@ -4,8 +4,8 @@ import './footer.scss'
 import { AiOutlineMedium } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { VscMail, VscPreview } from 'react-icons/vsc'
-// outerlink
-import * as LinkFunc from '../linkFunc/LinkFunc'
+// HintBtn
+import HintBtn from '../hintBtn/HintBtn'
 
 function Footer() {
   return (
@@ -24,18 +24,18 @@ function Footer() {
           </div>
         </div>
         <div className="icon">
-          <button type="button" className="link" onClick={() => LinkFunc.openMail()}>
+          <HintBtn loc="footer" type="E-Mail">
             <VscMail />
-          </button>
-          <button type="button" className="link" onClick={() => LinkFunc.openGithub()}>
+          </HintBtn>
+          <HintBtn loc="footer" type="Github">
             <FiGithub />
-          </button>
-          <button type="button" className="link" onClick={() => LinkFunc.openMedium()}>
+          </HintBtn>
+          <HintBtn loc="footer" type="Medium">
             <AiOutlineMedium />
-          </button>
-          <button type="button" className="link" onClick={() => LinkFunc.openResume()}>
+          </HintBtn>
+          <HintBtn loc="footer" type="Resume">
             <VscPreview />
-          </button>
+          </HintBtn>
         </div>
         <div className="copyright">
           Copyright © 2022 Tsung-Yu Chien. All rights reserved.

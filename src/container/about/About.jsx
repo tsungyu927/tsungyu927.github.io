@@ -58,7 +58,7 @@ function About() {
           offset={0}
           animateIn="animate__fadeIn"
           duration={1}
-          delay={1500}
+          delay={1000}
           animateOnce
         >
           <Button text="CONTACT ME" color="#e7e7e5" handleClick={() => handleClick()} />
