@@ -3,36 +3,61 @@
     "name": "Online Graduation Exhibition Website",
     "intro": "Responsive web app built with Vue.js and GreenSock Animation Platform APIs (GSAP).",
     "tags": ["Vue.js", "SCSS", "Javascript", "GSAP"],
-    "pic": "graduation_web"
+    "pic": "graduation_web",
+    "link": [
+      {
+        "name": "Website",
+        "url": "http://befrenetic.infocom.yzu.edu.tw/"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/tsungyu927/yzuic-exhibition-web"
+      }
+    ]
   },
   {
     "name": "Blood Pressure Record Bot",
     "intro": "Using Line Bot to record daily blood pressure, users can easily view records from the bot or the LIFF (web).",
     "tags": ["React.js", "Bottender.js", "Firebase"],
-    "pic": "blood-pressure-bot"
+    "pic": "blood-pressure-bot",
+    "link": [
+      {
+        "name": "Github",
+        "url": ""
+      }
+    ]
   },
   {
     "name": "SeatBao",
     "intro": "The app used to solve the problem of finding the seats in the library.",
     "tags": ["React Native", "Firebase"],
-    "pic": "seatbao"
+    "pic": "seatbao",
+    "link": []
   },
   {
     "name": "College Welcome Camp Scoring System",
     "intro": "A scoring system built with HTML, CSS, PHP, MySQL aimed to engage users and reduce manual workload.",
     "tags": ["HTML", "CSS", "PHP", "MySQL", "GCP"],
-    "pic": "camp"
+    "pic": "camp",
+    "link": []
   },
   {
     "name": "Team Member Finder",
     "intro": "An online board that show off the expertises of the classmates and helping them to find the most suitable team member.",
     "tags": ["HTML", "CSS", "PHP", "MySQL", "Firebase"],
-    "pic": "member-finder"
+    "pic": "member-finder",
+    "link": []
   },
   {
     "name": "HCSE Website",
     "intro": "A website introducing the HCSE with a shopping cart that users can easily add items to it.",
     "tags": ["HTML", "CSS", "jQuery"],
-    "pic": "hcse"
+    "pic": "hcse",
+    "link": [
+      {
+        "name": "Website",
+        "url": "https://hsbiomedical.url.tw/"
+      }
+    ]
   }
 ]

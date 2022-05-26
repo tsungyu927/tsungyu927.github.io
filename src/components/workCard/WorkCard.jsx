@@ -8,7 +8,7 @@ import Button from '../button/Button'
 
 /* eslint-disable */
 function WorkCard(props) {
-  const { content } = props
+  const { content, handleClick } = props
 
   return (
       <ScrollAnimation 
@@ -39,7 +39,7 @@ function WorkCard(props) {
               </ul>
             </div>
             <div className="btn">
-              <Button text="READ MORE" color="#070707" size="small" handleClick={() => content.onClick()} />
+              <Button text="READ MORE" color="#070707" size="small" handleClick={() => handleClick()} />
             </div>
           </div>
         </div>
@@ -49,6 +49,7 @@ function WorkCard(props) {
 
 WorkCard.propTypes = {
   content: PropTypes.shape().isRequired,
+  handleClick: PropTypes.func.isRequired,
 }
 
 export default WorkCard
