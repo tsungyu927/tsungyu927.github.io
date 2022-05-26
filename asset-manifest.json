@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.84e1a9e7.css",
-    "main.js": "/static/js/main.c87b3b6a.js",
-    "static/media/member-finder.png": "/static/media/member-finder.0164c4c2447702f70d43.png",
-    "static/media/seatbao.png": "/static/media/seatbao.e824adcc6f364490f730.png",
-    "static/media/camp.png": "/static/media/camp.ac5c5a65941fa42c54bb.png",
-    "static/media/blood-pressure-bot.png": "/static/media/blood-pressure-bot.33271bf6696f856dac04.png",
-    "static/media/graduation_web.png": "/static/media/graduation_web.6b14a4a54a1ba30ff7a9.png",
-    "static/media/hcse.png": "/static/media/hcse.84ffa60a67e6e3657307.png",
-    "static/media/Work.png": "/static/media/Work.e82a63efac12da399378.png",
-    "static/media/About.png": "/static/media/About.26511f98b56a78f8ea49.png",
-    "static/media/Skills.png": "/static/media/Skills.8e24a3a5449dc0ba0418.png",
-    "static/media/Resume_ENG_v2.pdf": "/static/media/Resume_ENG_v2.3c55b9c02eef1d60416e.pdf",
-    "static/media/Home.png": "/static/media/Home.777809bed24fbe66b942.png",
-    "static/media/Exp.png": "/static/media/Exp.9506fbb6b534bb3cee98.png",
-    "static/media/Portrait_3px.svg": "/static/media/Portrait_3px.268e1c1a667c99c63e72ec6805eb6410.svg",
-    "static/media/en.svg": "/static/media/en.7d8bd1e95bf7efb8212746ee7f1e793b.svg",
-    "index.html": "/index.html",
-    "main.84e1a9e7.css.map": "/static/css/main.84e1a9e7.css.map",
-    "main.c87b3b6a.js.map": "/static/js/main.c87b3b6a.js.map"
+    "main.css": "/portfolio/static/css/main.84e1a9e7.css",
+    "main.js": "/portfolio/static/js/main.b384e565.js",
+    "static/media/member-finder.png": "/portfolio/static/media/member-finder.0164c4c2447702f70d43.png",
+    "static/media/seatbao.png": "/portfolio/static/media/seatbao.e824adcc6f364490f730.png",
+    "static/media/camp.png": "/portfolio/static/media/camp.ac5c5a65941fa42c54bb.png",
+    "static/media/blood-pressure-bot.png": "/portfolio/static/media/blood-pressure-bot.33271bf6696f856dac04.png",
+    "static/media/graduation_web.png": "/portfolio/static/media/graduation_web.6b14a4a54a1ba30ff7a9.png",
+    "static/media/hcse.png": "/portfolio/static/media/hcse.84ffa60a67e6e3657307.png",
+    "static/media/Work.png": "/portfolio/static/media/Work.e82a63efac12da399378.png",
+    "static/media/About.png": "/portfolio/static/media/About.26511f98b56a78f8ea49.png",
+    "static/media/Skills.png": "/portfolio/static/media/Skills.8e24a3a5449dc0ba0418.png",
+    "static/media/Resume_ENG_v2.pdf": "/portfolio/static/media/Resume_ENG_v2.3c55b9c02eef1d60416e.pdf",
+    "static/media/Home.png": "/portfolio/static/media/Home.777809bed24fbe66b942.png",
+    "static/media/Exp.png": "/portfolio/static/media/Exp.9506fbb6b534bb3cee98.png",
+    "static/media/Portrait_3px.svg": "/portfolio/static/media/Portrait_3px.268e1c1a667c99c63e72ec6805eb6410.svg",
+    "static/media/en.svg": "/portfolio/static/media/en.7d8bd1e95bf7efb8212746ee7f1e793b.svg",
+    "index.html": "/portfolio/index.html",
+    "main.84e1a9e7.css.map": "/portfolio/static/css/main.84e1a9e7.css.map",
+    "main.b384e565.js.map": "/portfolio/static/js/main.b384e565.js.map"
   },
   "entrypoints": [
     "static/css/main.84e1a9e7.css",
-    "static/js/main.c87b3b6a.js"
+    "static/js/main.b384e565.js"
   ]
 }
