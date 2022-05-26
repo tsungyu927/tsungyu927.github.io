@@ -7,6 +7,8 @@ import { Link } from 'react-scroll'
 import { AiOutlineMedium } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { VscMail, VscPreview } from 'react-icons/vsc'
+// OuterLink
+import * as LinkFunc from '../linkFunc/LinkFunc'
 // img
 import Logo from '../../assets/Jamie.png'
 import { ReactComponent as EnIcon } from '../../assets/icons/en.svg'
@@ -73,16 +75,16 @@ function Navbar() {
         <div className="col-3">
           {/* link */}
           <div className="link-list">
-            <button type="button" className="link">
+            <button type="button" className="link" onClick={() => LinkFunc.openMail()}>
               <VscMail />
             </button>
-            <button type="button" className="link">
+            <button type="button" className="link" onClick={() => LinkFunc.openGithub()}>
               <FiGithub />
             </button>
-            <button type="button" className="link">
+            <button type="button" className="link" onClick={() => LinkFunc.openMedium()}>
               <AiOutlineMedium />
             </button>
-            <button type="button" className="link">
+            <button type="button" className="link" onClick={() => LinkFunc.openResume()}>
               <VscPreview />
             </button>
           </div>

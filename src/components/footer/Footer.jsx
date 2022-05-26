@@ -4,6 +4,8 @@ import './footer.scss'
 import { AiOutlineMedium } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { VscMail, VscPreview } from 'react-icons/vsc'
+// outerlink
+import * as LinkFunc from '../linkFunc/LinkFunc'
 
 function Footer() {
   return (
@@ -22,16 +24,16 @@ function Footer() {
           </div>
         </div>
         <div className="icon">
-          <button type="button" className="link">
+          <button type="button" className="link" onClick={() => LinkFunc.openMail()}>
             <VscMail />
           </button>
-          <button type="button" className="link">
+          <button type="button" className="link" onClick={() => LinkFunc.openGithub()}>
             <FiGithub />
           </button>
-          <button type="button" className="link">
+          <button type="button" className="link" onClick={() => LinkFunc.openMedium()}>
             <AiOutlineMedium />
           </button>
-          <button type="button" className="link">
+          <button type="button" className="link" onClick={() => LinkFunc.openResume()}>
             <VscPreview />
           </button>
         </div>
