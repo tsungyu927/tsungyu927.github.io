@@ -39,7 +39,13 @@ function Work() {
       </div>
       <div className="row-2">
         <div className="card-container">
-          {work.map((val) => <WorkCard content={val} handleClick={() => handleClick(val)} />)}
+          {work.map((val) => (
+            <WorkCard
+              key={val.id}
+              content={val}
+              handleClick={() => handleClick(val)}
+            />
+          ))}
         </div>
       </div>
     </div>

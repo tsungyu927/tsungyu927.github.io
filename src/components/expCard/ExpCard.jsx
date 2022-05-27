@@ -33,7 +33,7 @@ function ExpCard(props) {
         </div>
         <div className="detail">
           {data.detail.map((val) => (
-            <div className="item">
+            <div key={val} className="item">
               <div className="icon">
                 <IoTriangleSharp className="triangle" />
               </div>

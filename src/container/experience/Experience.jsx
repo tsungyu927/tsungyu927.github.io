@@ -33,7 +33,7 @@ function Experience() {
         >
           <IoTriangleSharp className="triangle" />
           <div className="card-container">
-            {EXP.map((val) => <ExpCard data={val} />)}
+            {EXP.map((val) => <ExpCard key={`${val.title} ${val.company}`} data={val} />)}
           </div>
         </ScrollAnimation>
       </div>

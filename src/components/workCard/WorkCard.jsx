@@ -32,7 +32,7 @@ function WorkCard(props) {
             <div className="tags">
               <ul>
                 {content.tags.map((val) => (
-                  <li>
+                  <li key={val}>
                     {val}
                   </li>
                 ))}

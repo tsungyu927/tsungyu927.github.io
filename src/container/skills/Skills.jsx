@@ -56,7 +56,7 @@ function Skills() {
           >
             <div className="list-content">
               {TECH.lang.map((val) => (
-                <SkillCard type={val} />
+                <SkillCard key={val} type={val} />
               ))}
             </div>
           </ScrollAnimation>
@@ -69,7 +69,7 @@ function Skills() {
           >
             <div className="list-content">
               {TECH.others.map((val) => (
-                <SkillCard type={val} />
+                <SkillCard key={val} type={val} />
               ))}
             </div>
           </ScrollAnimation>

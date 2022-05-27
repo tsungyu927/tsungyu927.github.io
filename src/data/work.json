@@ -1,5 +1,6 @@
 [
   {
+    "id": "work-1",
     "name": "Online Graduation Exhibition Website",
     "intro": "Responsive web app built with Vue.js and GreenSock Animation Platform APIs (GSAP).",
     "tags": ["Vue.js", "SCSS", "Javascript", "GSAP"],
@@ -16,6 +17,7 @@
     ]
   },
   {
+    "id": "work-2",
     "name": "Blood Pressure Record Bot",
     "intro": "Using Line Bot to record daily blood pressure, users can easily view records from the bot or the LIFF (web).",
     "tags": ["React.js", "Bottender.js", "Firebase"],
@@ -28,6 +30,7 @@
     ]
   },
   {
+    "id": "work-3",
     "name": "SeatBao",
     "intro": "The app used to solve the problem of finding the seats in the library.",
     "tags": ["React Native", "Firebase"],
@@ -35,6 +38,7 @@
     "link": []
   },
   {
+    "id": "work-4",
     "name": "College Welcome Camp Scoring System",
     "intro": "A scoring system built with HTML, CSS, PHP, MySQL aimed to engage users and reduce manual workload.",
     "tags": ["HTML", "CSS", "PHP", "MySQL", "GCP"],
@@ -42,6 +46,7 @@
     "link": []
   },
   {
+    "id": "work-5",
     "name": "Team Member Finder",
     "intro": "An online board that show off the expertises of the classmates and helping them to find the most suitable team member.",
     "tags": ["HTML", "CSS", "PHP", "MySQL", "Firebase"],
@@ -49,6 +54,7 @@
     "link": []
   },
   {
+    "id": "work-6",
     "name": "HCSE Website",
     "intro": "A website introducing the HCSE with a shopping cart that users can easily add items to it.",
     "tags": ["HTML", "CSS", "jQuery"],
