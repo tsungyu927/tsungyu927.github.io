@@ -1,0 +1,20 @@
+@use '../../styles/utilities/color';
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .skills {
+
+
+        & > .row-1 {
+            margin-top: 25vh;
+            margin-bottom: 5%;
+            width: 100%;
+            height: auto;
+    
+            & > .title {
+                font-size: 2em;
+            }
+        }
+    }
+
+}

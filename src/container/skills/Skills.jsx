@@ -1,5 +1,6 @@
 import React from 'react'
 import './skills.scss'
+import './skill_mobile.scss'
 // animation
 import ScrollAnimation from 'react-animate-on-scroll'
 // icons

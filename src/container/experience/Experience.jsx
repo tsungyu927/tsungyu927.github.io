@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.scss'
+import './experience_mobile.scss'
 import { IoTriangleSharp } from 'react-icons/io5'
 // animation
 import ScrollAnimation from 'react-animate-on-scroll'

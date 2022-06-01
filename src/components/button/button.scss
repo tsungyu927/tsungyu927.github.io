@@ -23,7 +23,22 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        height: 4.5em;
         width: 3px;
+    }
+}
+
+.largeBtn {
+    padding-right: 4.5em;
+
+    & > .end-line {
+        height: 4.5em;
+    }
+}
+
+.smallBtn {
+    padding-right: 3em;
+
+    & > .end-line {
+        height: 3em;
     }
 }

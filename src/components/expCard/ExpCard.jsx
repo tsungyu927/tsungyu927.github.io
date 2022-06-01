@@ -1,5 +1,6 @@
 import React from 'react'
 import './expCard.scss'
+import './expCard_mobile.scss'
 import PropTypes from 'prop-types'
 import { GiPlainCircle } from 'react-icons/gi'
 import { IoTriangleSharp } from 'react-icons/io5'

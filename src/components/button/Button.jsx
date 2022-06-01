@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import './button.scss'
+import './button_mobile.scss'
 
 function SpecBtn(props) {
   const {
@@ -10,12 +11,11 @@ function SpecBtn(props) {
 
   return (
     <button
-      className="specbtn"
+      className={`specbtn ${size}Btn`}
       type="button"
       style={{
         color,
         borderBottomColor: strokeColor,
-        paddingRight: size === 'large' ? '4.5em' : '3em',
       }}
       alt={text}
       onClick={() => handleClick()}
@@ -27,7 +27,6 @@ function SpecBtn(props) {
         className="end-line"
         style={{
           backgroundColor: strokeColor,
-          height: size === 'large' ? '4.5em' : '3em',
         }}
       />
     </button>
