@@ -1,5 +1,6 @@
 import React from 'react'
 import './skillCard.scss'
+import './skillCard_mobile.scss'
 import PropTypes from 'prop-types'
 // components
 import Icon from '../icon/Icon'

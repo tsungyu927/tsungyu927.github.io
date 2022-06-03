@@ -29,79 +29,97 @@
     & > .row-2 {
         width: 100%;
         height: 43%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 50% 50%;
 
-        & > .col {
-            height: 100%;
+        // title part
+        & > .title {
+            position: relative;
+            height: 90%;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+            justify-content: flex-end;
+            align-items: center;
+            border-right: 3px solid color.$primary-color-bright;
 
-        & > .col-1 {
-            width: 15%;
-            align-items: flex-end;
-
-            & > .list-title {
+            & > div {
+                position: absolute;
+                right: 0;
                 width: 135%;
-                height: 45%;
+                height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 font-weight: bold;
                 color: color.$primary-color-bright;
-                border-right: 3px solid color.$primary-color-bright;
-
+            
                 & > .icon {
                     width: auto;
                     height: 35%;
                 }
-
+                
                 & > .main {
                     height: 25%;
                     font-size: 1.5em;
                 }
-
+                
                 & > .sub {
                     height: 20%;
                     font-size: 0.9em;
                 }
-
+                
             }
         }
 
-        & > .col-2 {
-            width: calc(100% - 15%);
-            align-items: flex-start;
-
-            & > .list::-webkit-scrollbar {
-                // hide scrollbar for Chrome, Safari, Opera
-                display: none;
-            }
-
-            & > .list {
-                overflow: scroll hidden;
-                width: 100%;
-                height: 45%;
-
-                -ms-overflow-style: none;  // hide scrollbar for IE and Edge
-                scrollbar-width: none;  // hide scrollbar for Firefox
-
-                & > .list-content {
-                    padding: 0 1.5em;
-                    width: max-content;
-                    height: 100%;
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
-                }
-            }
-            
+        & > .lang-title {
+            grid-column: 1/2;
+            grid-row: 1/2;
         }
+
+        & > .other-title {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        // content part
+        & > .content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: scroll hidden;
+            -ms-overflow-style: none;  // hide scrollbar for IE and Edge
+            scrollbar-width: none;  // hide scrollbar for Firefox
+        
+            & > .list-content {
+                padding: 0 1.5em;
+                width: max-content;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+        }
+
+        & > .lang-content {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        & > .other-content {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        // hide scroll bar
+        & > .content::-webkit-scrollbar {
+            // hide scrollbar for Chrome, Safari, Opera
+            display: none;
+        }
+
     }
 
 }
