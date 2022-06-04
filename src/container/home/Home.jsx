@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.scss'
+import './home_mobile.scss'
 // scroll
 import Scroll from 'react-scroll'
 // svg

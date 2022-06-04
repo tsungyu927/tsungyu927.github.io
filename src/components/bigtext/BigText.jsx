@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './bigtext.scss'
+import './bigtext_mobile.scss'
 
 /* eslint-disable */
 function BigText(props) {
@@ -8,11 +9,7 @@ function BigText(props) {
 
   return (
     <div
-      className="bigtext"
-      style={{
-        left: isBright ? 'auto' : 0,
-        right: isBright ? 0 : 'auto'
-      }}
+      className={`bigtext ${isBright ? 'toRight' : 'toLeft'}`}
     >
       <img src={require(`../../assets/text/${fileN}.png`)} alt={`${fileN}`} />
     </div>

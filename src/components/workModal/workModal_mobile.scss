@@ -1,0 +1,73 @@
+@use '../../styles/utilities/color';
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .workmodal {
+
+        & > .modal {
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 3fr 4fr 1fr;
+
+            // title
+            & > .title {
+                grid-column: 1/2;
+                grid-row: 1/2;
+                margin: 0 10%;
+                text-align: center;
+            }
+
+            & > .close {
+                position: fixed;
+                top: 10%;
+                right: 10%;
+                grid-column: auto;
+                grid-row: auto;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                & > .icon {
+                    font-size: 3em;
+                    color: color.$primary-color-dark;
+                }
+            }
+
+            & > .content {
+                grid-column: 1/2;
+                grid-row: 3/4;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                overflow: hidden scroll;
+
+                & > .row {
+                    margin-bottom: 2em;
+                    width: 90%;
+                }
+            }
+
+            & > .pic {
+                width: 100%;
+                grid-column: 1/2;
+                grid-row: 2/3;
+
+                & > img {
+                    width: 90%;
+                    height: auto;
+                }
+            }
+
+            & > .btn {
+                grid-column: 1/2;
+                grid-row: 4/5;
+            }
+        }
+
+    }
+
+}

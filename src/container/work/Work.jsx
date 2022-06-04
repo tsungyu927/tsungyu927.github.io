@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './work.scss'
+import './work_mobile.scss'
 // animate
 import ScrollAnimation from 'react-animate-on-scroll'
 // data

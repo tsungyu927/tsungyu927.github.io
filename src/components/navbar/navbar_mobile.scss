@@ -1,0 +1,64 @@
+@use '../../styles/utilities/color';
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .navbar {
+        height: 10%;
+        border-bottom: 2px solid color.$stroke-color-dark;
+
+        & > .row {
+            align-items: center;
+
+            & > .col-1 {
+                width: max-content;
+                height: 100%;
+
+                & > .name {
+                    width: max-content;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    & > .logo {
+                        width: auto;
+                        height: 60%;
+                    }
+                }
+            }
+
+            & > .col-2 {
+                border-right: none;
+
+                & > .menu-list {
+                    display: none;
+                }
+            }
+
+            & > .col-3 {
+                width: max-content;
+
+                & > .link-list {
+                    display: none;
+                }
+
+                & > .trans-list {
+                    margin: 0;
+                }
+            }
+
+            & > .menu-btn {
+                display: flex;
+                width: max-content;
+                height: max-content;
+
+                & > .icon {
+                    width: auto;
+                    height: 2em;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.scss'
+import './about_mobile.scss'
 // scroll
 import Scroll from 'react-scroll'
 // animate

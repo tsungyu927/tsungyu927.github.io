@@ -1,0 +1,26 @@
+@use '../../styles/utilities/color';
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .work {
+
+        & > .row-1 {
+            
+            margin-top: 25vh;
+            margin-bottom: 5%;
+            width: 100%;
+            height: max-content;
+    
+            & > .title {
+                font-size: 2.5em;
+            }
+        }
+
+        & > .row-2 {
+            overflow: hidden;
+            margin-bottom: 0;
+        }
+
+    }
+
+}

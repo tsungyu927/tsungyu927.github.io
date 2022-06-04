@@ -2,13 +2,15 @@ import React, {
   useState, useEffect, useCallback,
 } from 'react'
 import './navbar.scss'
+import './navbar_mobile.scss'
 import { Link } from 'react-scroll'
 // icons
-import { AiOutlineMedium } from 'react-icons/ai'
+import { AiOutlineMedium, AiOutlineMenu } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { VscMail, VscPreview } from 'react-icons/vsc'
 // HintBtn
 import HintBtn from '../hintBtn/HintBtn'
+import MobileMenu from './MobileMenu'
 // img
 import Logo from '../../assets/Jamie.png'
 import { ReactComponent as EnIcon } from '../../assets/icons/en.svg'
@@ -16,6 +18,11 @@ import { ReactComponent as EnIcon } from '../../assets/icons/en.svg'
 function Navbar() {
   const [y, setY] = useState(window.scrollY)
   const [scrollUp, setScrollUp] = useState('') // scroll up -> show menu
+  const [open, setOpen] = useState(false)
+
+  const openMenu = () => {
+    setOpen((prev) => !prev)
+  }
 
   const handleNavigation = useCallback((e) => {
     const window = e.currentTarget
@@ -43,6 +50,7 @@ function Navbar() {
 
   return (
     <div className={`navbar ${scrollUp}`}>
+      {open ? (<MobileMenu handleClick={() => openMenu()} />) : ''}
       <div className="row">
         <div className="col-1">
           {/* logo */}
@@ -95,6 +103,12 @@ function Navbar() {
             </HintBtn>
           </div>
         </div>
+
+        <button type="button" className="menu-btn" onClick={() => openMenu()}>
+          {open ? '' : (
+            <AiOutlineMenu className="icon" />
+          )}
+        </button>
 
       </div>
     </div>
