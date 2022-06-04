@@ -8,7 +8,6 @@ import { IoMdClose } from 'react-icons/io'
 /* eslint-disable */
 function WorkModal(props) {
   const { data, handleClick } = props
-  console.log(data)
 
   const handleClickLink = (url) => {
     window.open(url, '_blank')
@@ -48,7 +47,7 @@ function WorkModal(props) {
             <div className="tags">
               <ul>
                 {data.tags.map((val) => (
-                  <li>
+                  <li key={val}>
                     {val}
                   </li>
                 ))}
@@ -61,7 +60,7 @@ function WorkModal(props) {
         </div>
         <div className="btn">
           {data.link.map((val) => (
-            <button type="button" onClick={() => handleClickLink(val.url)}>
+            <button key={val.name} type="button" onClick={() => handleClickLink(val.url)}>
               {val.name}
             </button>
           ))}

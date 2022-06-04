@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import './mobileMenu.scss'
 import { Link } from 'react-scroll'
 // icons
-import { AiOutlineMedium, AiOutlineClose } from 'react-icons/ai'
+import { IoMdClose } from 'react-icons/io'
+import { AiOutlineMedium } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { VscMail, VscPreview } from 'react-icons/vsc'
 // HintBtn
@@ -45,7 +46,7 @@ function MobileMenu(props) {
         </HintBtn>
       </div>
       <button type="button" className="menu-btn" onClick={() => handleClick()}>
-        <AiOutlineClose className="icon" />
+        <IoMdClose className="icon" />
       </button>
 
     </div>
