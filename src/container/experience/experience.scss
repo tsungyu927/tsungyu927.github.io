@@ -4,7 +4,8 @@
     position: relative;
     padding: 0 5%;
     width: 90%;
-    height: fit-content;
+    min-height: 100vh;
+    height: max-content;
     background-color: color.$primary-color-bright;
     display: flex;
     justify-content: flex-end;
@@ -12,7 +13,7 @@
 
     & > .col-1 {
         width: 85%;
-        height: fit-content;
+        height: max-content;
 
         & > .row-1 {
             margin-bottom: 4vh;
