@@ -9,7 +9,7 @@ To view the demo: [**click here**](https://tsungyu927.github.io)
 ## **Future Features**
 
 - [ ] Translate
-- [ ] RWD
+- [x] RWD
 - [ ] Lazy loading
 - [ ] Optimization 
 - [ ] Add Honors page
