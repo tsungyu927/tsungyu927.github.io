@@ -1,5 +1,6 @@
 import React from 'react'
 import './workCard.scss'
+import './workCard_mobile.scss'
 import PropTypes from 'prop-types'
 // animate
 import ScrollAnimation from 'react-animate-on-scroll'

@@ -1,5 +1,6 @@
 import React from 'react'
 import './workModal.scss'
+import './workModal_mobile.scss'
 import PropTypes from 'prop-types'
 // icon
 import { IoMdClose } from 'react-icons/io'

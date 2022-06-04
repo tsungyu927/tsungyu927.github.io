@@ -1,0 +1,58 @@
+@use '../../styles/utilities/color';
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+
+    .workcard {
+        margin-bottom: 2em;
+        padding: 0 0 2em 0;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        & > .col-1 {
+            width: 100%;
+            height: max-content;
+    
+            & > .pic {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 16/9;
+    
+                -webkit-filter: none; /* Safari 6.0 - 9.0 */
+                filter: none;
+            }
+    
+            & > .pic:hover{
+                
+            }
+        }
+
+        & > .col-2 {
+            width: 100%;
+            height: max-content;
+            
+            & > .content {
+                margin: 0;
+                width: 100%;
+
+                & > .title {
+                    padding: 0.5em 0 1em 0;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                }
+    
+                & > .intro {
+                    font-size: 1em;
+                }
+
+                & > .tags {
+                    margin-bottom: 1em;
+                    & > ul {
+                        padding-left: 1em;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
