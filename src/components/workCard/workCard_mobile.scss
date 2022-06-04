@@ -29,6 +29,7 @@
         & > .col-2 {
             width: 100%;
             height: max-content;
+            aspect-ratio: auto;
             
             & > .content {
                 margin: 0;
@@ -47,7 +48,7 @@
                 & > .tags {
                     margin-bottom: 1em;
                     & > ul {
-                        padding-left: 1em;
+                        padding-left: 1.5em;
                     }
                 }
             }
