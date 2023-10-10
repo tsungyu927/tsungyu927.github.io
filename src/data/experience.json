@@ -1,7 +1,7 @@
 [
     {
         "title": "Software Engineer Intern",
-        "company": "MyBigDay",
+        "company": "FuGood Solution Co., Ltd.",
         "time": "July 2020 - June 2021",
         "location": "Taipei, Taiwan",
         "detail": [
@@ -10,6 +10,19 @@
             "Built server-side rendered web app and deployed to Google Cloud Platform (Firebase)",
             "Collaborated with designers to create new Line integrations",
             "Implemented BLE (Bluetooth Low Energy) communication system on Raspberry Pi and Android using Node.js and React Native"
+        ]
+    },
+    {
+        "title": "Frontend Developer (Programmer II)",
+        "company": "Shoalter Technology",
+        "time": "July 2022 - Present",
+        "location": "Taipei, Taiwan",
+        "detail": [
+            "Led a cross-functional team of four members in the successful development and implementation of a front-end service, ensuring progress toward project milestones and client satisfaction.",
+            "Collaborated with other programmers to develop brand new systems using Next.js, Typescript and Ant Design.",
+            "Implemented reuseable components and revamping legacy code according to requirements.",
+            "Developed comprehensive unit tests using Jest which increased test coverage by about 30%.",
+            "Mentored junior team member, fostering their growth in frontend development, code best practices and project execution."
         ]
     }
 ]
