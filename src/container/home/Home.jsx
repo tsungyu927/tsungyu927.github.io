@@ -40,8 +40,9 @@ function Home() {
           <div className="brief-intro">
             Hello,
             <br />
-            I&#39;m Jamie, a 25 years old
+            I&#39;m Jamie, a 25 years old&nbsp;
             <b>Frontend Developer</b>
+            &nbsp;
             interesting in create website and explore technology. I like to use technology to solve
             problems in life.
           </div>
