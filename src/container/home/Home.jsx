@@ -24,9 +24,7 @@ function Home() {
       <BigText fileN="Home" isBright />
       <div className="col-1">
         <div className="content">
-          <div className="title">
-            Frontend Developer
-          </div>
+          <div className="title">Frontend Developer</div>
           <div className="subtitle">
             Create and make it possible
             <br />
@@ -42,8 +40,10 @@ function Home() {
           <div className="brief-intro">
             Hello,
             <br />
-            I&#39;m Jamie, a 23 years old recent graduate student interesting in create website and
-            explore technology. I like to use technology to solve problems in life.
+            I&#39;m Jamie, a 25 years old
+            <b>Frontend Developer</b>
+            interesting in create website and explore technology. I like to use technology to solve
+            problems in life.
           </div>
           <div className="more-btn">
             <Button text="MORE ABOUT ME" color="#040404" handleClick={() => handleClick()} />
