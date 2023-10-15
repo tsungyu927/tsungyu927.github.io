@@ -1,4 +1,4 @@
-import RESUME from '../../data/resume/Resume_ENG_230114.pdf'
+import RESUME from '../../data/resume/Resume_ENG_231014.pdf'
 
 function openMail() {
   window.open('mailto:tsungyu927@gmail.com', '_blank')
