@@ -14,6 +14,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     semi: ['error', 'never'],
+    'object-curly-newline': 'off',
     // 'comma-dangle': ['error', 'never'],
     // 'prettier/prettier': ['error'],
   },
