@@ -1,4 +1,4 @@
-import RESUME from '../../data/resume/Resume_ENG_231014.pdf'
+import RESUME from '../../data/resume/Resume_ENG_231018.pdf'
 
 function openMail() {
   window.open('mailto:tsungyu927@gmail.com', '_blank')
@@ -16,6 +16,4 @@ function openResume() {
   window.open(RESUME, '_blank')
 }
 
-export {
-  openMail, openGithub, openMedium, openResume,
-}
+export { openMail, openGithub, openMedium, openResume }
