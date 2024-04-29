@@ -3,46 +3,67 @@
     "name": "Jamie Chien",
     "brief": "Passionate Frontend Developer with a strong knack for creativity and highly skilled in HTML, CSS, JavaScript, and React.js. I excel in writing detailed technical documentation and am skilled at effective communication. My commitment to staying updated with the latest trends and technologies allows me to deliver innovative solutions that bridge user experience with cutting-edge frontend development."
   },
-  "experience": [
-    {
-      "company": "Shoalter Technology Ltd. (Member of HKTV Group)",
-      "position": "Senior Frontend Developer",
-      "location": "Taipei, Taiwan",
-      "startDate": "Apr 2024",
-      "endDate": "Present",
-      "description": [
-        "Optimized Git flow methodology for team collaboration, streamlining code integration, version control, and release management processes, resulting in increased efficiency and code quality.",
-        "Built a separate development environment by adjusting CI, Docker and Kubernetes to ensure an effective testing process.",
-        "Assisted the team leader in the recruitment process by conducting technical interviews."
-      ]
-    },
-    {
-      "company": "Shoalter Technology Ltd. (Member of HKTV Group)",
-      "position": "Frontend Developer (Programmer II)",
-      "location": "Taipei, Taiwan",
-      "startDate": "July 2022",
-      "endDate": "Apr 2024",
-      "description": [
-        "Led a cross-functional team of four members in the successful development and implementation of a front-end service, ensuring progress toward project milestones and client satisfaction.",
-        "Implemented reusable components with Next.js, Ant Design and TailwindCSS, and revamping legacy code according to requirements.",
-        "Developed comprehensive unit tests using Jest which increased test coverage by about 30%.",
-        "Mentored five junior team members, fostering their growth in frontend development, code best practices and project execution."
-      ]
-    },
-    {
-      "company": "FuGood Solution Co., Ltd.",
-      "position": "Software Engineer Intern",
-      "location": "Taipei, Taiwan",
-      "startDate": "July 2020",
-      "endDate": "June 2021",
-      "description": [
-        "Developed responsive web pages using React.js, Redux, CSS, and running on Line Frontend-end Framework (LIFF).",
-        "Implemented Line Bots using Node.js and Bottender.js.",
-        "Built server-side rendered web app and deployed to Google Cloud Platform (Firebase).",
-        "Implemented Bluetooth Low Energy (BLE) communication system on Raspberry Pi and Android using Node.js and React Native."
-      ]
-    }
-  ],
+  "experience": {
+    "title": "I'm a Frontend Developer with 3 years of experience in building web app",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur ante et lobortis facilisis. Aenean in hendrerit lectus. Nulla faucibus placerat felis sit amet posuere. Proin aliquam, arcu sit amet imperdiet dapibus, arcu dolor tempus neque, vitae aliquam enim ex vitae dui. Nullam pharetra rutrum tortor, eget varius mauris porta nec. Morbi laoreet nibh at orci suscipit semper. Vestibulum gravida gravida turpis vel ullamcorper. Aenean nec tellus velit. Donec fermentum lectus felis, eget maximus dolor consequat in. Vestibulum sodales blandit dui, nec finibus odio varius ac. Phasellus condimentum leo eu ex rutrum placerat. Nam eu sem et velit mollis elementum. Morbi augue sem, cursus at tortor non, iaculis sagittis urna.",
+    "work": [
+      {
+        "company": "Shoalter Technology Ltd. (Member of HKTV Group)",
+        "position": "Senior Frontend Developer",
+        "location": "Taipei, Taiwan",
+        "startDate": "Apr 2024",
+        "endDate": "Present",
+        "description": [
+          "Optimized Git flow methodology for team collaboration, streamlining code integration, version control, and release management processes, resulting in increased efficiency and code quality.",
+          "Built a separate development environment by adjusting CI, Docker and Kubernetes to ensure an effective testing process.",
+          "Assisted the team leader in the recruitment process by conducting technical interviews."
+        ],
+        "tags": ["Docker", "Kubernetes", "Gitlab CI", "Git", "Next.js", "Shell"]
+      },
+      {
+        "company": "Shoalter Technology Ltd. (Member of HKTV Group)",
+        "position": "Frontend Developer (Programmer II)",
+        "location": "Taipei, Taiwan",
+        "startDate": "July 2022",
+        "endDate": "Apr 2024",
+        "description": [
+          "Led a cross-functional team of four members in the successful development and implementation of a front-end service, ensuring progress toward project milestones and client satisfaction.",
+          "Implemented reusable components with Next.js, Ant Design and TailwindCSS, and revamping legacy code according to requirements.",
+          "Developed comprehensive unit tests using Jest which increased test coverage by about 30%.",
+          "Mentored five junior team members, fostering their growth in frontend development, code best practices and project execution."
+        ],
+        "tags": [
+          "React.js",
+          "Typescript",
+          "Redux",
+          "TailwindCSS",
+          "Next.js",
+          "Ant Design"
+        ]
+      },
+      {
+        "company": "FuGood Solution Co., Ltd.",
+        "position": "Software Engineer Intern",
+        "location": "Taipei, Taiwan",
+        "startDate": "July 2020",
+        "endDate": "June 2021",
+        "description": [
+          "Developed responsive web pages using React.js, Redux, CSS, and running on Line Frontend-end Framework (LIFF).",
+          "Implemented Line Bots using Node.js and Bottender.js.",
+          "Built server-side rendered web app and deployed to Google Cloud Platform (Firebase).",
+          "Implemented Bluetooth Low Energy (BLE) communication system on Raspberry Pi and Android using Node.js and React Native."
+        ],
+        "tags": [
+          "React.js",
+          "Javascript",
+          "Firebase",
+          "Node.js",
+          "LineBot",
+          "React Native"
+        ]
+      }
+    ]
+  },
   "projects": [
     {
       "name": "Shozzle",
