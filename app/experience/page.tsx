@@ -13,9 +13,12 @@ export default function Experience() {
         <div className="px-4 mb-12">
           <Header>Experience</Header>
           <h2 className="w-4/5 mb-6 text-4xl font-bold">{experience.title}</h2>
-          <h3 className="w-4/5 text-muted-foreground">
-            {experience.description}
-          </h3>
+          <h3
+            className="w-4/5 text-muted-foreground"
+            dangerouslySetInnerHTML={{
+              __html: experience.description.replace(/\n/g, "<br>"),
+            }}
+          />
         </div>
         <div className="mb-4 flex flex-col border-y">
           {experience.work.map((item, index, arr) => (
