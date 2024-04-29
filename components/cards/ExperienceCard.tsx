@@ -30,11 +30,11 @@ const ExperienceCard = ({
         {startDate} - {endDate}
       </section>
       <section className={cn("p-3 w-2/3 bg-background", !isLast && "border-b")}>
-        <h3 className="font-bold">{company}</h3>
-        <h3 className="text-muted-foreground">{position}</h3>
-        <ul className="p-3">
+        <h3 className="text-lg font-bold">{company}</h3>
+        <h3 className="text-base">{position}</h3>
+        <ul className="p-3 text-muted-foreground">
           {description.map((text) => (
-            <li key={text} className="list-disc">
+            <li key={text} className="list-disc mt-1">
               {text}
             </li>
           ))}

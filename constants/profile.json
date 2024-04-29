@@ -67,7 +67,8 @@
   "projects": [
     {
       "name": "Shozzle",
-      "link": "https://shozzle.dev",
+      "link": "https://shozzle.dev/author/jamie-chien/",
+      "image": "https://i.imgur.com/nshbnYr.png",
       "startDate": "March 2023",
       "endDate": "Present",
       "tech": ["Astro", "Typescript", "TailwindCSS", "SCSS"],
@@ -80,6 +81,7 @@
     {
       "name": "Mirror xd",
       "link": "https://acg.gamer.com.tw/acgDetail.php?s=117426",
+      "image": "https://i.imgur.com/vu7dZ3x.jpg",
       "startDate": "July 2020",
       "endDate": "February 2022",
       "tech": ["Unity", "Scrum", "Startup Incubator"],

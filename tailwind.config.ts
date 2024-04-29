@@ -35,6 +35,9 @@ const config = {
           DEFAULT: "var(--secondary)",
           foreground: "var(--secondary-foreground)",
         },
+        tertiary: {
+          DEFAULT: "var(--tertiary)",
+        },
         destructive: {
           DEFAULT: "var(--destructive)",
           foreground: "var(--destructive-foreground)",
@@ -80,6 +83,9 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      scale: {
+        101: "1.01",
       },
     },
   },

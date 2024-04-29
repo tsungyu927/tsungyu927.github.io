@@ -16,7 +16,6 @@ enum MenuKeys {
   Home = "HOME",
   Experience = "EXPERIENCE",
   Projects = "PROJECTS",
-  Skills = "SKILLS",
   Contact = "CONTACT",
 }
 
@@ -41,11 +40,6 @@ const MENU: MenuProps[] = [
     key: MenuKeys.Projects,
     title: "Projects",
     path: "/projects",
-  },
-  {
-    key: MenuKeys.Skills,
-    title: "Skills",
-    path: "/skills",
   },
   {
     key: MenuKeys.Contact,

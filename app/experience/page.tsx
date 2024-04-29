@@ -1,4 +1,4 @@
-import ExperienceCard from "@/components/ExperienceCard";
+import ExperienceCard from "@/components/cards/ExperienceCard";
 import Header from "@/components/Header";
 import Wrapper from "@/components/Wrapper";
 import data from "@/constants/profile.json";
