@@ -1,7 +1,10 @@
 {
   "profile": {
     "name": "Jamie Chien",
-    "brief": "Passionate Frontend Developer with a strong knack for creativity and highly skilled in HTML, CSS, JavaScript, and React.js. I excel in writing detailed technical documentation and am skilled at effective communication. My commitment to staying updated with the latest trends and technologies allows me to deliver innovative solutions that bridge user experience with cutting-edge frontend development."
+    "brief": "Passionate Frontend Developer with a strong knack for creativity and highly skilled in HTML, CSS, JavaScript, and React.js. I excel in writing detailed technical documentation and am skilled at effective communication. My commitment to staying updated with the latest trends and technologies allows me to deliver innovative solutions that bridge user experience with cutting-edge frontend development.",
+    "resume": "https://drive.google.com/file/d/1mgPhX-LIA74TNjCeF4bTLxVAdfjfVo3P/view?usp=sharing",
+    "phone": "+886 975-404-368",
+    "email": "tsungyu927@gmail.com"
   },
   "experience": {
     "title": "I'm a Frontend Developer with 3 years of experience in building web app",
@@ -91,6 +94,28 @@
         "Responsible for UI design and programming development within the team.",
         "Nominated by Bahamut ACG Award in 2021"
       ]
+    }
+  ],
+  "contact": [
+    {
+      "title": "Github",
+      "link": "https://github.com/tsungyu927",
+      "btnText": "Check Out My Repositories"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/tsungyu927",
+      "btnText": "Connect With Me"
+    },
+    {
+      "title": "Shozzle Blog",
+      "link": "https://shozzle.dev/author/jamie-chien",
+      "btnText": "New Post"
+    },
+    {
+      "title": "Medium",
+      "link": "https://medium.com/@tsungyu927",
+      "btnText": "Previous Articles"
     }
   ]
 }
