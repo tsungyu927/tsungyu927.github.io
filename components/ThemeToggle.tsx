@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
@@ -12,15 +12,29 @@ enum ThemeOptions {
 }
 
 const ThemeToggle = () => {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
   const handleThemeToggle = (isDark: boolean) => {
-    setTheme(isDark ? ThemeOptions.Dark : ThemeOptions.Light);
+    const value = isDark ? ThemeOptions.Dark : ThemeOptions.Light;
+
+    setTheme(value);
   };
 
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
   return (
     <div className="fixed z-50 right-10 top-10 flex items-center gap-2">
-      <Switch onCheckedChange={handleThemeToggle} />
+      <Switch
+        checked={theme === ThemeOptions.Dark}
+        onCheckedChange={handleThemeToggle}
+      />
       <MoonIcon className="hidden dark:block" />
       <SunIcon className="block dark:hidden" />
     </div>
