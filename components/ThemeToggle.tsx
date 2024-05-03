@@ -30,7 +30,7 @@ const ThemeToggle = () => {
     return null;
   }
   return (
-    <div className="fixed z-50 right-10 top-10 flex items-center gap-2">
+    <div className="fixed z-50 left-4 bottom-5 sm:left-auto sm:right-10 sm:bottom-auto sm:top-10 flex items-center gap-2">
       <Switch
         checked={theme === ThemeOptions.Dark}
         onCheckedChange={handleThemeToggle}

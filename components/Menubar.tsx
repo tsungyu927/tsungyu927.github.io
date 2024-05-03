@@ -52,7 +52,7 @@ const Menubar = () => {
   const pathname = usePathname();
 
   return (
-    <NavigationMenu className="fixed z-50 top-10 right-1/2 w-fit translate-x-1/2 px-8 py-1.5 rounded-md border bg-background shadow-sm">
+    <NavigationMenu className="fixed z-50 top-3 sm:top-10 right-1/2 w-fit translate-x-1/2 px-8 py-1.5 rounded-md border bg-background shadow-sm">
       <NavigationMenuList className="text-muted-foreground">
         {MENU.map((item) => (
           <NavigationMenuItem

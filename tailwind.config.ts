@@ -59,6 +59,10 @@ const config = {
           foreground: "var(--card-foreground)",
         },
       },
+      minHeight: {
+        DEFAULT: "calc(100dvh - 8px)",
+        sm: "calc(100dvh - 48px)",
+      },
       fontSize: {
         sm: ["14px", "20px"],
         base: ["16px", "24px"],
