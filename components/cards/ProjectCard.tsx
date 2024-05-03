@@ -21,7 +21,7 @@ const ProjectCard = ({
   description,
 }: ProjectCardProps) => {
   return (
-    <div className="w-full flex text-sm border-b">
+    <div className="w-full flex text-sm border-t">
       <section className="p-3 w-1/3 flex flex-col">
         <h3 className="text-xl text-primary font-bold">{name}</h3>
         <p className="text-tertiary">

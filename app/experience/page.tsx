@@ -9,7 +9,7 @@ export default function Experience() {
     <Wrapper>
       <div className="absolute left-0 mt-14 w-1/3 h-[calc(100%-56px)] border-r border-dashed" />
       <div className="absolute right-0 mt-14 w-1/3 h-[calc(100%-56px)] border-l border-dashed" />
-      <div className="relative z-10 w-full min-h-[calc(100dvh-48px)] pt-48">
+      <div className="relative z-10 w-full min-h-[calc(100dvh-48px)] pt-48 pb-10">
         <div className="px-4 mb-12">
           <Header>Experience</Header>
           <h2 className="w-4/5 mb-6 text-4xl font-bold">{experience.title}</h2>
@@ -20,7 +20,7 @@ export default function Experience() {
             }}
           />
         </div>
-        <div className="mb-4 flex flex-col border-y">
+        <div className="mb-4 flex flex-col border-t">
           {experience.work.map((item, index, arr) => (
             <ExperienceCard
               key={item.startDate}
