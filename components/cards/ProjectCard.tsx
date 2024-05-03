@@ -21,13 +21,13 @@ const ProjectCard = ({
   description,
 }: ProjectCardProps) => {
   return (
-    <div className="w-full flex text-sm border-t">
-      <section className="p-3 w-1/3 flex flex-col">
+    <div className="w-full flex flex-col sm:flex-row text-sm border-t">
+      <section className="p-3 w-full sm:w-1/3 flex flex-col">
         <h3 className="text-xl text-primary font-bold">{name}</h3>
         <p className="text-tertiary">
           {startDate} - {endDate}
         </p>
-        <ul className="mb-2 p-3 text-muted-foreground">
+        <ul className="p-3 text-muted-foreground">
           {description.map((text) => (
             <li key={text} className="list-disc mt-1">
               {text}
@@ -42,7 +42,7 @@ const ProjectCard = ({
           ))}
         </div>
       </section>
-      <section className="p-3 w-2/3 bg-background">
+      <section className="p-3 w-full sm:w-2/3 bg-background">
         <a href={link} target="_blank" className="cursor-pointer">
           <CustomImage src={image} alt={name} />
         </a>
