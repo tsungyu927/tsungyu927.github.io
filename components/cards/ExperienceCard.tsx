@@ -25,11 +25,16 @@ const ExperienceCard = ({
   tags,
 }: ExperienceCardProps) => {
   return (
-    <div className="w-full flex text-sm">
-      <section className="p-3 w-1/3 flex text-muted-foreground">
+    <div className="p-3 sm:p-0 w-full flex flex-col sm:flex-row text-sm border-t sm:border-none">
+      <section className="sm:p-3 w-full sm:w-1/3 flex text-muted-foreground bg-background sm:bg-transparent">
         {startDate} - {endDate}
       </section>
-      <section className={cn("p-3 w-2/3 bg-background", !isLast && "border-b")}>
+      <section
+        className={cn(
+          "sm:p-3 w-full sm:w-2/3 bg-background",
+          !isLast && "sm:border-b"
+        )}
+      >
         <h3 className="text-lg font-bold">{company}</h3>
         <h3 className="text-base">{position}</h3>
         <ul className="p-3 text-muted-foreground">
