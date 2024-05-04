@@ -20,11 +20,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: ./.github/workflow/setup-node
+        uses: ./.github/workflows/setup-node
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
           static_site_generator: next
+          generator_config_file: ./next.config.mjs
       - name: Build with Next.js
         run: npm run build
       - name: Upload artifact
