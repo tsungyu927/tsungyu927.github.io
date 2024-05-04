@@ -11,7 +11,7 @@ To view the demo: [**click here**](https://tsungyu927.github.io)
 ## **Future Features**
 
 - [x] Re-build
-- [ ] RWD
+- [x] RWD
 - [ ] Animation
 - [ ] Translate
 - [ ] Optimization
