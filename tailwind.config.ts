@@ -59,6 +59,10 @@ const config = {
           foreground: "var(--card-foreground)",
         },
       },
+      maxWidth: {
+        DEFAULT: "calc(100dvw - 8px)",
+        sm: "calc(100dvw - 48px)",
+      },
       minHeight: {
         DEFAULT: "calc(100dvh - 8px)",
         sm: "calc(100dvh - 48px)",

@@ -14,15 +14,15 @@ export default function Contact() {
 
   return (
     <Wrapper>
-      <div className="absolute left-0 mt-14 w-1/3 h-[calc(100%-56px)] border-r border-dashed" />
-      <div className="absolute right-0 mt-14 w-1/3 h-[calc(100%-56px)] border-l border-dashed" />
-      <div className="relative z-10 w-full min-h sm:min-h-sm pt-48">
+      <div className="absolute left-0 mt-14 w-1/3 h-[calc(100%-56px)] border-r border-dashed hidden sm:block" />
+      <div className="absolute right-0 mt-14 w-1/2 sm:w-1/3 h-[calc(100%-56px)] border-l border-dashed" />
+      <div className="relative z-10 w-full min-h sm:min-h-sm pt-40 sm:pt-48 pb-10">
         <div className="px-4 mb-12">
           <Header>Contact</Header>
         </div>
-        <div className="w-full p-3 flex justify-between bg-background font-bold border-y">
-          <h3 className="text-lg">Get in touch</h3>
-          <div className="flex gap-2">
+        <div className="w-full p-3 flex flex-col sm:flex-row sm:justify-between bg-background font-bold border-y">
+          <h3 className="mb-2 sm-mb-0 text-lg">Get in touch</h3>
+          <div className="flex flex-col sm:lg:flex-row gap-2">
             <ContactButton href={profile.resume}>
               <FileTextIcon />
               Download Latest CV
@@ -37,7 +37,7 @@ export default function Contact() {
             </ContactButton>
           </div>
         </div>
-        <div className="mb-4 flex flex-col">
+        <div className="w-full mb-4 flex flex-col">
           {contact.map((item) => (
             <ContactCard key={item.title} {...item} />
           ))}

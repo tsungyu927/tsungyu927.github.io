@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="absolute left-0 mt-14 w-1/3 h-[calc(100%-56px)] border-r border-dashed hidden sm:block" />
       <div className="absolute right-0 mt-14 w-1/2 sm:w-1/3 h-[calc(100%-56px)] border-l border-dashed" />
       <div className="relative z-10 w-full min-h sm:min-h-sm pt-40 sm:pt-48 pb-10">
-        <div className="px-4 mb-4 sm:mb-12">
+        <div className="px-4 mb-12">
           <Header>Projects</Header>
         </div>
         <div className="mb-4 flex flex-col">

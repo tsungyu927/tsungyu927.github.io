@@ -4,7 +4,7 @@ const Header = ({ children }: { children: React.ReactNode }) => {
       <div className="w-4 h-4 sm:w-6 sm:h-6 flex justify-center items-center rounded-full bg-secondary">
         <div className="w-2 h-2 sm:w-2 sm:h-2 rounded-full bg-primary opacity-40" />
       </div>
-      <h2 className="w-2/3 text-3xl sm:text-5xl font-bold text-primary opacity-40">
+      <h2 className="text-3xl sm:text-5xl font-bold text-primary opacity-40">
         {children}
       </h2>
     </div>
