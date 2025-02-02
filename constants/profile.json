@@ -2,7 +2,7 @@
   "profile": {
     "name": "Jamie Chien",
     "brief": "Passionate Frontend Developer with a strong knack for creativity and highly skilled in HTML, CSS, JavaScript, and React.js. I excel in writing detailed technical documentation and am skilled at effective communication. My commitment to staying updated with the latest trends and technologies allows me to deliver innovative solutions that bridge user experience with cutting-edge frontend development.",
-    "resume": "https://drive.google.com/file/d/1mgPhX-LIA74TNjCeF4bTLxVAdfjfVo3P/view?usp=sharing",
+    "resume": "https://drive.google.com/file/d/1OjwUiwEJjMH-1HysuGS3kELJaINU26Lk/view?usp=sharing",
     "phone": "+886 975-404-368",
     "email": "tsungyu927@gmail.com"
   },
@@ -11,14 +11,36 @@
     "description": "3 years Frontend developer with expertise in HTML, CSS, JavaScript (Typescript), and modern frontend frameworks such as React.js (Next.js), specializing in building websites and web applications.\n\nPassionate about creating useful and user-friendly websites to solve problems encountered in daily life. Always looking for new challenges and stay up-to-date with the latest technologies.",
     "work": [
       {
+        "company": "HTC",
+        "position": "Sr. Engineer",
+        "location": "Taipei, Taiwan",
+        "startDate": "Jul. 2024",
+        "endDate": "Present",
+        "description": [
+          "Enhanced VIVE Business Plus, a VR device management platform, by developing new features and resolving critical issues, improving stability and user experience.",
+          "Optimized the Git flow to enhance team collaboration and integrated tools like Husky and Commitlint to enforce better codebase management.",
+          "Implemented Unit Testing and End-to-End Testing to improve code reliability and maintainability.",
+          "Ensured UI components accurately aligned with design specifications, improving consistency and user experience."
+        ],
+        "tags": [
+          "Typescript",
+          "React.js",
+          "Jest",
+          "Playwright",
+          "AWS",
+          "Git",
+          "Shell"
+        ]
+      },
+      {
         "company": "Shoalter Technology Ltd. (Member of HKTV Group)",
         "position": "Senior Programmer",
         "location": "Taipei, Taiwan",
-        "startDate": "Apr 2024",
-        "endDate": "Present",
+        "startDate": "Apr. 2024",
+        "endDate": "Jul. 2024",
         "description": [
           "Optimized Git flow methodology for team collaboration, streamlining code integration, version control, and release management processes, resulting in increased efficiency and code quality.",
-          "Built a separate development environment by adjusting CI, Docker and Kubernetes to ensure an effective testing process.",
+          "Designed and optimized a dedicated development environment using Gitlab CI, Docker, and Kubernetes, enhancing testing efficiency.",
           "Assisted the team leader in the recruitment process by conducting technical interviews."
         ],
         "tags": ["Docker", "Kubernetes", "Gitlab CI", "Git", "Next.js", "Shell"]
@@ -27,12 +49,12 @@
         "company": "Shoalter Technology Ltd. (Member of HKTV Group)",
         "position": "Programmer II",
         "location": "Taipei, Taiwan",
-        "startDate": "July 2022",
-        "endDate": "Apr 2024",
+        "startDate": "Jul. 2022",
+        "endDate": "Apr. 2024",
         "description": [
           "Led a cross-functional team of four members in the successful development and implementation of a front-end service, ensuring progress toward project milestones and client satisfaction.",
-          "Implemented reusable components with Next.js, Ant Design and TailwindCSS, and revamping legacy code according to requirements.",
-          "Developed comprehensive unit tests using Jest which increased test coverage by about 30%.",
+          "Implemented reusable components with Next.js, Ant Design and TailwindCSS, and refactored legacy code according to requirements.",
+          "Developed comprehensive unit tests with Jest and React Testing Library, increasing test coverage by 30%.",
           "Mentored five junior team members, fostering their growth in frontend development, code best practices and project execution."
         ],
         "tags": [
@@ -48,10 +70,10 @@
         "company": "FuGood Solution Co., Ltd.",
         "position": "Software Engineer Intern",
         "location": "Taipei, Taiwan",
-        "startDate": "July 2020",
-        "endDate": "June 2021",
+        "startDate": "Jul. 2020",
+        "endDate": "Jun. 2021",
         "description": [
-          "Developed responsive web pages using React.js, Redux, CSS, and running on Line Frontend-end Framework (LIFF).",
+          "Developed responsive web pages using React.js, Redux, CSS, and built on the LINE Frontend Framework (LIFF).",
           "Implemented Line Bots using Node.js and Bottender.js.",
           "Built server-side rendered web app and deployed to Google Cloud Platform (Firebase).",
           "Implemented Bluetooth Low Energy (BLE) communication system on Raspberry Pi and Android using Node.js and React Native."
@@ -72,27 +94,26 @@
       "name": "Shozzle",
       "link": "https://shozzle.dev/author/jamie-chien/",
       "image": "https://i.imgur.com/nshbnYr.png",
-      "startDate": "March 2023",
+      "startDate": "Mar. 2023",
       "endDate": "Present",
       "tech": ["Astro", "Typescript", "TailwindCSS", "SCSS"],
       "description": [
-        "Co-created and maintain the technology blog using Astro.",
-        "Author and publish insightful articles to share knowledge and expertise.",
-        "Pioneered and implemented innovative features by conceiving and proposing creative ideas, enhancing blog functionality and user experience."
+        "Co-created and maintain Shozzle, a technology blog built with Astro.",
+        "Wrote and published insightful articles to share knowledge and expertise.",
+        "Develop and implement new features to enhance blog functionality and user experience."
       ]
     },
     {
       "name": "Mirror xd",
       "link": "https://acg.gamer.com.tw/acgDetail.php?s=117426",
       "image": "https://i.imgur.com/vu7dZ3x.jpg",
-      "startDate": "July 2020",
-      "endDate": "February 2022",
+      "startDate": "Jul. 2020",
+      "endDate": "Feb. 2022",
       "tech": ["Unity", "Scrum", "Startup Incubator"],
       "description": [
-        "Collaborated closely with four team members to develop a Minimum Viable Product (MVP) for a puzzle game.",
-        "Established a team-specific Scrum process to ensure that the development stays on the right track.",
-        "Responsible for UI design and programming development within the team.",
-        "Nominated by Bahamut ACG Award in 2021"
+        "Developed a Minimum Viable Product (MVP) puzzle game with a team of four, focusing on UI design and programming.",
+        "Implemented a Scrum process to streamline development.",
+        "Nominated for the 2021 Bahamut ACG Award."
       ]
     }
   ],
@@ -110,12 +131,12 @@
     {
       "title": "Shozzle Blog",
       "link": "https://shozzle.dev/author/jamie-chien",
-      "btnText": "New Post"
+      "btnText": "Blog posts (Chinese)"
     },
     {
       "title": "Medium",
       "link": "https://medium.com/@jamie-chien",
-      "btnText": "Previous Articles"
+      "btnText": "Blog posts (English)"
     }
   ]
 }
